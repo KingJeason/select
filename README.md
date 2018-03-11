@@ -1,6 +1,6 @@
 # 多选下拉框
 ### 在线浏览
-[多选组件](/demo/select/index.html)
+[多选组件](https://kingjeason.github.io/demo/select/index.html)
 ### 用例
 ```
 <bl-select v-model="value" :data="dataArray"></bl-select>

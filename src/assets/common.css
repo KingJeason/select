@@ -1,0 +1,13 @@
+/* transition */
+.bl-zoom-in-center-enter-active,
+.bl-zoom-in-center-leave-active {
+  -webkit-transition: all .3s cubic-bezier(.55, 0, .1, 1);
+  transition: all .3s cubic-bezier(.55, 0, .1, 1)
+}
+
+.bl-zoom-in-center-enter,
+.bl-zoom-in-center-leave-active {
+  opacity: 0;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0)
+}
